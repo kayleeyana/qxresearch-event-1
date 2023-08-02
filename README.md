@@ -127,3 +127,29 @@ Any kind of contributions to `qxresearch-event-1` are welcome. Contributions are
 <a href="https://trackgit.com">
 <img src="https://us-central1-trackgit-analytics.cloudfunctions.net/token/ping/lggxrc0abm2i1s2ok85l" alt="trackgit-views" />
 </a>
+
+
+PDF Security Tool
+This Python script allows you to create a secured PDF file by encrypting the contents of an existing PDF with a password. The script uses the PyPDF2 library for working with PDF files.
+
+How to Use
+Make sure you have Python installed on your system.
+
+Install the PyPDF2 library if you haven't already:
+
+Download or clone this repository to your local machine.
+
+Run the pdf_security_tool.py script:
+
+Follow the prompts to provide the name of the original PDF file (including the extension) and set a password for encryption.
+
+The script will create a new PDF file named secured.pdf with the encrypted content.
+
+Example
+Let's say you have a PDF file named document.pdf and you want to secure it with a password. Run the script, provide the file name, set a password, and a new secured PDF named secured.pdf will be generated.
+
+Please note that the original PDF file remains unchanged, and the secured PDF will require the password to be opened.
+
+Note: This script uses the PyPDF2 library for PDF manipulation. Make sure to handle your password securely and keep it safe.
+
+Feel free to customize the README file further based on your preferences and any additional information you'd like to provide.
